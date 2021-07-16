@@ -8,7 +8,7 @@ class Translation(object):
 
 <b>I am °°🇳 🇪 🇬 🇦 🇳 ​°°</b>
 
-<b>I am an Auto Filter Bot working for [Movie Vibezz](https://t.me/movievibezz).. 😊</b>"""    
+<b>I am an Auto Filter Bot working for [Movie Vibezz](https://t.me/Movievibezz) .. 😊</b>"""    
     
     HELP_TEXT = """
 <b>😉How To Use Me!😉?</b>
@@ -40,7 +40,7 @@ class Translation(object):
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-<b><a href="https://t.me/Mo_Tech_YT">MoTechYT</a></b>
+<b><a href="https://t.me/Movievibezz">Movie Vibezz</a></b>
 """
     
     ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>🕴️ NEGAN 🕴🏿</b>
