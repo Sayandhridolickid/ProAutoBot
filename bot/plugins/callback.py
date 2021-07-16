@@ -81,7 +81,7 @@ async def cb_navg(bot, update: CallbackQuery):
 
     if ((index_val + 1 )== max_pages) or ((index_val + 1) == len(results)): # Max Pages
         temp_results.append([
-            InlineKeyboardButton("⏪ Back", callback_data=f"navigate({index_val}|back|{query})")
+            InlineKeyboardButton("⬅️ Back", callback_data=f"navigate({index_val}|back|{query})")
         ])
 
     elif int(index_val) == 0:
@@ -89,13 +89,13 @@ async def cb_navg(bot, update: CallbackQuery):
 
     else:
         temp_results.append([
-            InlineKeyboardButton("⏪ Back", callback_data=f"navigate({index_val}|back|{query})"),
-            InlineKeyboardButton("Next ⏩", callback_data=f"navigate({index_val}|next|{query})")
+            InlineKeyboardButton("⬅️ Back", callback_data=f"navigate({index_val}|back|{query})"),
+            InlineKeyboardButton("Next ➡️", callback_data=f"navigate({index_val}|next|{query})")
         ])
 
     if not int(index_val) == 0:    
         temp_results.append([
-            InlineKeyboardButton(f"🔰 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"📃 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 📃", callback_data="ignore")
         ])
     
     if show_invite and int(index_val) !=0 :
@@ -1680,9 +1680,7 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('👤 @𝙼𝚛𝚔_𝚈𝚃 👤', url='https://t.me/MRK_YT')
-        ],[
-            InlineKeyboardButton('𝙼𝚊𝚜𝚝𝚎𝚛 @𝙰𝚕𝚋𝚎𝚛𝚝𝙴𝚒𝚗𝚜𝚝𝚎𝚒𝚗𝚃𝙶', url='https://t.me/AlbertEinsteinTG')
+            InlineKeyboardButton('Wade Wilson 👤', url='https://t.me/Ridolickid')
         ],[
             InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
             InlineKeyboardButton('𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
