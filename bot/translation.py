@@ -8,9 +8,7 @@ class Translation(object):
 
 <b>I am °°🇳 🇪 🇬 🇦 🇳 ​°°</b>
 
-<b>I am an Auto Filter Bot working for [Movie Vibezz](https://t.me/movievibezz).. 😊</b>
-
-<b>Press /help to know about available commands🤪</b>"""    
+<b>I am an Auto Filter Bot working for [Movie Vibezz](https://t.me/movievibezz).. 😊</b>"""    
     
     HELP_TEXT = """
 <b>😉How To Use Me!😉?</b>
@@ -45,15 +43,13 @@ class Translation(object):
 <b><a href="https://t.me/Mo_Tech_YT">MoTechYT</a></b>
 """
     
-    ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>Pro Auto Filter Bot</b>
+    ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>🕴️ NEGAN 🕴🏿</b>
     
-<b>➥ 😎Creator</b> : <b>@AlbertEinstein_TG</b> 
-
-<b>➥ 👨‍💻Editor</b> : <b>@Mrk_YT</b>
+<b>➥ 😎Creator</b> : <b>@Ridolickid</b> 
 
 <b>➥ 🗣️Language</b> : <b>Python3</b>
 
 <b>➥ 📚Library</b> : <b><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></b>
 
-<b>➥ 📖Source Code</b> : <b><a href="https://github.com/MRK-YT/Pro-Auto-Filter-Bot">💥Click Me</a></b>
+<b>➥ 📖Source Code</b> : <b>🔐</b>
 """
