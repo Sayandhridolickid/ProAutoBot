@@ -6,9 +6,6 @@ class Translation(object):
     
     START_TEXT = """<b>🙋‍♂️Hey {}!!</b>
 
-    
-    START_TEXT = """<b>🙋‍♂️Hey {}!!</b>
-
 <b>I am °°🇳 🇪 🇬 🇦 🇳 ​°°</b>
 
 <b>I am an Auto Filter Bot working for [Movie Vibezz](https://t.me/movievibezz).. 😊</b>
