@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = caption,
+                caption = f"{file_name} <br> @Movievibezz",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -50,7 +50,7 @@ async def start(bot, update):
             await update.bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = caption,
+                caption =  f"{file_name} <br> @Movievibezz",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -69,7 +69,7 @@ async def start(bot, update):
             await update.bot.send_audio(
                 chat_id=update.chat.id,
                 audio = file_id,
-                caption = caption,
+                caption =  f"{file_name} <br> @Movievibezz",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -110,8 +110,7 @@ async def start(bot, update):
 
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
-    buttons = [[
-        InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
+    buttons = [
         InlineKeyboardButton('𝙰𝚋𝚘𝚞𝚝 🚩', callback_data='about')
     ],[
         InlineKeyboardButton('🔐 𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
@@ -134,7 +133,6 @@ async def about(bot, update):
     buttons = [[
         InlineKeyboardButton('👤Ꮗ Ꭿ ⅅ ℰ Ꮗ ℐ ℒ Ѕ Ꮎ ℕ 👤', url='https://t.me/Ridolickid')
     ],[
-        InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
         InlineKeyboardButton('𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
