@@ -110,11 +110,12 @@ async def start(bot, update):
 
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
-    buttons = [
+    buttons = [[
+        InlineKeyboardButton('Home 🏡', callback_data='start'), 
         InlineKeyboardButton('𝙰𝚋𝚘𝚞𝚝 🚩', callback_data='about')
     ],[
         InlineKeyboardButton('🔐 𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
-    ]
+    ]] 
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
@@ -133,6 +134,7 @@ async def about(bot, update):
     buttons = [[
         InlineKeyboardButton('👤Ꮗ Ꭿ ⅅ ℰ Ꮗ ℐ ℒ Ѕ Ꮎ ℕ 👤', url='https://t.me/Ridolickid')
     ],[
+        InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'), 
         InlineKeyboardButton('𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
