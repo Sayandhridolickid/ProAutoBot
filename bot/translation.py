@@ -4,7 +4,7 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>🙋‍♂️Hey {}!!</b>
+    START_TEXT = """<b>Hoi {} asshole😗!!</b>
 
 <b>I am °°🇳 🇪 🇬 🇦 🇳 ​°°</b>
 
