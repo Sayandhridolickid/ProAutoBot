@@ -201,8 +201,9 @@ async def auto_filter(bot, update):
         reply_markup = InlineKeyboardMarkup(result[0])
 
         try:
-            await bot.send_message(
+            await bot.send_photo(
                 chat_id = update.chat.id,
+                photo="https://telegra.ph/file/1d5c76614c48f562b4c60.jpg",
                 text=f"𝐆𝐫𝐨𝐮𝐩:- @Movievibezz\n𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐮𝐧𝐝:- {(len_results)}\n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞:- <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
